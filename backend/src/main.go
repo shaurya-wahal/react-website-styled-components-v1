@@ -23,7 +23,7 @@ func main() {
 
 	db.AutoMigrate(&Car{})
 	channels := []Car{
-		{Brand: "string", Type: "Sedan", Price: 5000, MPG: 20},
+		{Brand: "string", Type: "Sedan", Price: 5000, MPG: 25},
 	}
 	for _, c := range channels {
 		db.Create(&c)
