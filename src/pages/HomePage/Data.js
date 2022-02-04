@@ -4,14 +4,14 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Marketing Agency',
-  headline: 'Lead Generation Specialist for Online Businesses',
+  topLine: 'DriveAge',
+  headline: 'One stop destination for all your car needs',
   description:
-    'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
-  buttonLabel: 'Get Started',
+    '',
+  buttonLabel: 'Enquire Now',
   imgStart: '',
   img: require('../../images/svg-1.svg'),
-  alt: 'Credit Card',
+  alt: '',
   start: ''
 };
 
@@ -66,3 +66,5 @@ export const homeObjFour = {
   alt: 'Vault',
   start: 'true'
 };
+
+

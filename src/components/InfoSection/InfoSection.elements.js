@@ -3,12 +3,12 @@ import styled from 'styled-components';
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+  background: ${({ lightBg }) => (lightBg ? '#ffffff' : '#ffffff')};
 `;
 
 export const InfoRow = styled.div`
   display: flex;
-  margin: 0 -15px -15px -15px;
+  margin:  -15px -20px -15px;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
@@ -21,6 +21,7 @@ export const InfoColumn = styled.div`
   flex: 1;
   max-width: 50%;
   flex-basis: 50%;
+  
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
@@ -47,8 +48,8 @@ export const ImgWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
-  font-size: 18px;
+  color: ${({ lightTopLine }) => (lightTopLine ? '#000000' : '#4B59F7')};
+  font-size: 40px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
@@ -69,7 +70,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
+  color: ${({ lightText }) => (lightText ? '#000000' : '#1c2237')};
 `;
 
 export const Subtitle = styled.p`
@@ -77,5 +78,5 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#000000' : '#000000')};
 `;
