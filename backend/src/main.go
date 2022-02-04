@@ -17,7 +17,7 @@ type Car struct {
 
 func main() {
 	db, err := gorm.Open(sqlite.Open("test.db"), &gorm.Config{})
-	if err != nil {
+	if err !=  nil {
 		panic("failed to connect database")
 	}
 
